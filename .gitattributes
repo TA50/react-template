@@ -1,1 +1,4 @@
-text eol=crlf
+
+# Auto detect text files and perform CRLF normalization
+
+*        text eol=crlf
