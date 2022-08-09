@@ -1,0 +1,22 @@
+{
+  "name": "@flash-cards/firebase",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "yarn tsc --build"
+  },
+  "dependencies": {
+    "@flash-cards/infrastructure": "1.0.0",
+    "@flash-cards/models": "1.0.0",
+    "@flash-cards/repositories": "1.0.0",
+    "firebase": "^9.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@flash-cards/repositories",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "yarn tsc --build"
+  },
+  "dependencies": {
+    "@flash-cards/models": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

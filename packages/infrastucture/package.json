@@ -1,0 +1,17 @@
+{
+  "name": "@flash-cards/infrastructure",
+  "private": true,
+  "main": "./dist/index.js",
+  "version": "1.0.0",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "yarn tsc --build"
+  }
+}
