@@ -11,6 +11,7 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "build": "yarn tsc --build"
+    "build": "yarn tsc --build",
+    "build-clean": "node ../../processes/clean-dists.js models"
   }
 }

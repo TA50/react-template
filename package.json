@@ -9,10 +9,11 @@
     "start": "yarn workspace @flash-cards/ui start",
     "build-ui": "yarn workspace @flash-cards/ui build",
     "build": "yarn wsrun -eyt --report -x @flash-cards/ui  build ",
-    "lint": "yarn eslint \"**/*.ts\"",
-    "format": "yarn prettier --check",
-    "format-fix": "yarn prettier --write",
-    "lint-fix": "yarn eslint --fix \"**/*.ts\""
+    "clean-build": "node ./processes/clean-dists",
+    "lint": "yarn eslint \"**/*.ts\" ",
+    "format": "yarn prettier --check  \"**/*.ts\" ",
+    "format-fix": "yarn prettier --write  \"**/*.ts\" ",
+    "lint-fix": "yarn eslint --fix \"**/*.ts\"  "
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "latest",

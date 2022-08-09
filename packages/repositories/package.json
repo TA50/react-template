@@ -8,7 +8,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "yarn tsc --build"
+    "build": "yarn tsc --build",
+    "build-clean": "node ../../processes/clean-dists.js repositories"
   },
   "dependencies": {
     "@flash-cards/models": "1.0.0"
