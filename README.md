@@ -1,5 +1,9 @@
-# flash-cards
-Flash cards application to make learning by repetition easier.
+# Workflow status
+![This is the linting status](https://github.com/ta50/react-template/actions/workflows/Lint.yml/badge.svg)
+
+![This is the formating status](https://github.com/ta50/react-template/actions/workflows/Format.yml/badge.svg)
+# React Template
+this repo will make your life easier creating react application with a perfect architecture.
 
 # First startup
 - First install yarn : 
