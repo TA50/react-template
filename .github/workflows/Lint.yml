@@ -27,7 +27,4 @@ jobs:
           cache: "yarn"
       - run: yarn install
       - run: yarn build
-      - run: |
-          yarn format
-          yarn lint
-      
+      - run: yarn lint
