@@ -1,5 +1,5 @@
 {
-  "name": "@flash-cards/models",
+  "name": "@react-template/models",
   "private": true,
   "main": "./dist/index.js",
   "version": "1.0.0",
@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "yarn tsc --build",
-    "build-clean": "node ../../processes/clean-dists.js models"
+    "build-clean": "node ../../processes/clean-dists.js models",
+    "test": "echo testing @react-template/firebase"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@flash-cards/repositories",
+  "name": "@react-template/repositories",
   "private": true,
   "version": "1.0.0",
   "main": "./dist/index.js",
@@ -9,10 +9,11 @@
   ],
   "scripts": {
     "build": "yarn tsc --build",
-    "build-clean": "node ../../processes/clean-dists.js repositories"
+    "build-clean": "node ../../processes/clean-dists.js repositories",
+    "test": "echo testing @@react-template/repositories"
   },
   "dependencies": {
-    "@flash-cards/models": "1.0.0"
+    "@react-template/models": "1.0.0"
   },
   "devDependencies": {
     "typescript": "^4.7.4"

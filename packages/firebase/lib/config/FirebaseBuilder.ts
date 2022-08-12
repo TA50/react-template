@@ -1,4 +1,4 @@
-import { AppConfig } from "@flash-cards/infrastructure";
+import { AppConfig } from "@react-template/infrastructure";
 import { FirebaseApp, FirebaseOptions, initializeApp } from "firebase/app";
 import { Firestore, getFirestore } from "firebase/firestore";
 

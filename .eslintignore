@@ -1,2 +1,6 @@
-**/*.d.ts
-processes
+    
+    
+    
+node_modules
+dist
+build

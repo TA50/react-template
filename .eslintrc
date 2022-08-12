@@ -4,21 +4,12 @@
     "es2021": true,
     "node": true
   },
-  "extends": [
-    "prettier",
-    "plugin:react/recommended",
-    "airbnb"
-  ],
+  "extends": ["prettier", "plugin:react/recommended", "airbnb"],
   "parser": "@typescript-eslint/parser",
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   },
@@ -29,11 +20,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "prettier",
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["prettier", "react", "@typescript-eslint"],
   "rules": {
     "no-useless-constructor": "off",
     "prettier/prettier": [
@@ -48,19 +35,9 @@
         "ts": "never"
       }
     ],
-    "quotes": [
-      "warn",
-      "double"
-    ],
+    "quotes": ["warn", "double"],
     "class-methods-use-this": "off",
     "import/prefer-default-export": "off",
-    "linebreak-style": [
-      "error",
-      "windows"
-    ]
-  },
-  "ignorePatterns": [
-    "**/node_modules",
-    "**/dist"
-  ]
+    "linebreak-style": ["error", "windows"]
+  }
 }

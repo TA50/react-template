@@ -1,5 +1,5 @@
 {
-  "name": "@flash-cards/infrastructure",
+  "name": "@react-template/infrastructure",
   "private": true,
   "main": "./dist/index.js",
   "version": "1.0.0",
@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "yarn tsc --build",
+    "test": "echo testing @react-template/infrastructure",
     "build-clean": "node ../../processes/clean-dists.js infrastructure"
   }
 }

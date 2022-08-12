@@ -1,5 +1,5 @@
 {
-  "name": "@flash-cards/firebase",
+  "name": "@react-template/firebase",
   "private": true,
   "version": "1.0.0",
   "main": "./dist/index.js",
@@ -9,12 +9,13 @@
   ],
   "scripts": {
     "build": "yarn tsc --build",
-    "build-clean": "node ../../processes/clean-dists.js firebase"
+    "build-clean": "node ../../processes/clean-dists.js firebase",
+    "test": "echo testing @react-template/firebase"
   },
   "dependencies": {
-    "@flash-cards/infrastructure": "1.0.0",
-    "@flash-cards/models": "1.0.0",
-    "@flash-cards/repositories": "1.0.0",
+    "@react-template/infrastructure": "1.0.0",
+    "@react-template/models": "1.0.0",
+    "@react-template/repositories": "1.0.0",
     "firebase": "^9.9.2"
   },
   "devDependencies": {
