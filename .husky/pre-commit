@@ -1,15 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo ------------ Checking types -----------
-yarn tsc
-echo ------------ Checking Formmating -----------
-yarn format
-echo ------------ Checking Code Style (linting) -----------
-yarn lint
-echo ------------ Checking Tests -----------
-yarn test --watchAll=false --findRelatedTests --bail
-echo ------------ Build packages -----------
-yarn build
-echo ------------ install packages -----------
-yarn
+
+echo "------------ Checking Formmating -----------"
+yarn format-fix
+echo "------------ Checking Code Style (linting) -----------"
+yarn lint-fix
+echo "------------ Checking Tests -----------"
+yarn test --lastCommit  --bail  --watchAll=false

@@ -1,11 +1,13 @@
 <<<<<<< Updated upstream
 ![This is the formating status](https://github.com/ta50/react-template/actions/workflows/Format.yml/badge.svg)
- ![This is the linting status](https://github.com/ta50/react-template/actions/workflows/Lint.yml/badge.svg) ![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square) 
+![This is the linting status](https://github.com/ta50/react-template/actions/workflows/Lint.yml/badge.svg) ![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
-![typescript badge]( https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white ) ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![typescript badge](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 # React Template
-this repo will make your life easier creating react application with a perfect architecture.
-=======
+
+# this repo will make your life easier creating react application with a perfect architecture.
+
 # Workflow status
 
 ![This is the linting status](https://github.com/ta50/react-template/actions/workflows/Lint.yml/badge.svg)
@@ -15,7 +17,8 @@ this repo will make your life easier creating react application with a perfect a
 # flash-cards
 
 Flash cards application to make learning by repetition easier.
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
 
 # First startup
 

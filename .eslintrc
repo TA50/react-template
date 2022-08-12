@@ -4,7 +4,13 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["prettier", "plugin:react/recommended", "airbnb"],
+  "extends": [
+    "prettier",
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
   "parser": "@typescript-eslint/parser",
   "settings": {
     "import/resolver": {
@@ -18,10 +24,13 @@
       "jsx": true
     },
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["./packages/*/tsconfig.json", "./tsconfig.json"]
   },
   "plugins": ["prettier", "react", "@typescript-eslint"],
   "rules": {
+    "@typescript-eslint/no-shadow": "error",
+    "no-shadow": "off",
     "no-useless-constructor": "off",
     "prettier/prettier": [
       "error",

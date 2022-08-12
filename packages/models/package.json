@@ -12,7 +12,6 @@
   },
   "scripts": {
     "build": "yarn tsc --build",
-    "build-clean": "node ../../processes/clean-dists.js models",
     "test": "echo testing @react-template/firebase"
   }
 }

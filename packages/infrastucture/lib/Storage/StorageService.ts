@@ -8,7 +8,7 @@ export class SessionStorageService implements IStorageService {
   get<T>(key: string): T | null {
     const stringifiedValue = sessionStorage.getItem(key);
     if (stringifiedValue) {
-      const value = JSON.parse(stringifiedValue);
+      const value = JSON.parse(stringifiedValue) as T;
       return value;
     }
     return null;
